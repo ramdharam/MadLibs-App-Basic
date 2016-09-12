@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<head>
+    <title>MadLibs</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--script type="text/javascript" src="script.js"></script-->
+    <script type= "text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    
+</head>
+
+<body >
+    <header class="mastHeader">
+        <img src="smiley_face.jpg" id="smiley" alt="smiley" />
+        <img src="logo.jpg" id="logo" alt="logo" />
+        <p id=headerText>Automate This!</p>
+    </header>
+    <section class="user_input">
+        <h2>Provide the following words</h2>
+        <table class="input_table">
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="maleName" placeholder="male name" ng-model="maleName">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="dirtyTask" placeholder="Dirty Task" ng-model="dirtyTask">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="obnoxiousCelebrity" placeholder="Obnoxious Celebrity" ng-model="obnoxiousCelebrity">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="jobTitle" placeholder="Job Title" ng-model="jobTitle">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="Celebrity" placeholder="Celebrity" ng-model="celebrity">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="hugeNumber" placeholder="Huge Number" ng-model="hugeNumber">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="tediousTask" placeholder="Tedious Task" ng-model="tediousTask">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="uselessSkill" placeholder="Useless Skill" ng-model="uselessSkill">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="adjective" placeholder="Adjective" ng-model="adjective">
+                </td>
+            </tr>
+        </table>
+
+
+    </section>
+    <section class="custom_para">
+        <p>
+            <u>{{maleName}}</u> was a <u>{{jobTitle}}</u> who loved technology. Although she loved parts of her job, she absolutely hated <u>{{tediousTask}}</u> and <u>{{dirtyTask}}</u>. So, <u>{{maleName}}</u> met with her life mentor <u>{{celebrity}}</u> who told her to learn how to <u>{{uselessSkill}}</u> with Thinkful. Thinkful didn't offer a course on <u>{{uselessSkill}}</u> so she studied programming instead.</p>
+        <p>What a great decision! With her new skills, <u>{{maleName}}</u> built a(n) <u>{{adjective}}</u> robot named <u>{{obnoxiuousCelebrity}}</u> that not only loved <u>{{dirtyTask}}</u> but did it <u>{{hugeNumber}}</u> faster.
+        </p>
+    </section>
+    <footer></footer>
+    
+</body>
+
+</html>
+

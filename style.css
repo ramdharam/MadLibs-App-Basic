@@ -1,0 +1,63 @@
+
+.mastHeader {
+	//display: inline;
+	position: relative;
+	border: 2px solid black;
+	height: 9em;	
+}
+
+#smiley {
+	width: 7em;
+	height: 7em;
+	left: em;
+	position: relative;
+	padding: 1em;
+	border: 1px solid black;
+}
+
+#logo {
+	width: 7em;
+	height: 3em;
+	position: relative;
+	left: 20em;
+	bottom: 5em;
+}
+
+#headerText{
+	position: relative;
+	left: -3em;
+	text-align: center;
+	bottom: 3em;
+	font-size: 200%	;
+}
+
+html {
+	font-family: Comic Sans MS;
+}
+
+body{
+	border: 1px solid black;
+}
+
+.user_input {
+	left: 12em;
+	width:75%;
+	height: 3em;
+	text-align: left;
+	position: relative;
+	display: inline;
+}
+
+th,td {
+	padding: 0.5em;
+	padding-right: 7em;
+	white-space: nowrap;
+}
+
+section {
+	border-top: 1px solid black;
+}
+
+u{
+	color: red;
+}
